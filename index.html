@@ -1,0 +1,31 @@
+<!DOCTYPE html5>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/index.css">
+		<title>Generador de contraseñas</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<form onsubmit="return validateForm();">
+				<h2>GENERADOR DE CONTRASEÑAS</h2>
+				<input type="number" id="password-length" min="1" placeholder="Longitud">
+				<input type="submit" value="¡Generar!">
+			</form>
+
+			<div class="password-text-field">
+				<p class="password-value" id="password-value"></p>
+			</div>
+			<div class="state-text-field">
+				<p class="state-value" id="state-value"></p>
+			</div>
+		</div>
+
+		<script src="scripts/validate_form.js"></script>
+		<script src="scripts/index.js"></script>
+		<script src="scripts/password.js"></script>
+	</body>
+</html>
