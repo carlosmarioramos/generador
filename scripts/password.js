@@ -86,7 +86,7 @@ class Password
 		
 		else
 		{
-			this.state =  "SEGURA";
+			this.state =  "INSEGURA";
 		}
 		
 	}
