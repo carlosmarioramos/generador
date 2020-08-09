@@ -78,7 +78,16 @@ class Password
 				number += 1;
 			}
 		}
-
-		this.state = (uppercase >= 2 && lowercase >= 1) && (number >= 5) ? "SEGURA" : "INSEGURA";
+		
+		if (uppercase >= 2 && lowercase >= 1 && number >= 5)
+		{
+			this.state =  "SEGURA";
+		}
+		
+		else
+		{
+			this.state =  "SEGURA";
+		}
+		
 	}
 }
