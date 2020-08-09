@@ -79,6 +79,6 @@ class Password
 			}
 		}
 		
-		this.state = uppercase >= 2 && lowercase >= 1 && number >= 5 ? "Segura" : "Insegura";
+		this.state = uppercase >= 2 && lowercase >= 1 && number >= 5 ? "SEGURA" : "INSEGURA";
 	}
 }
